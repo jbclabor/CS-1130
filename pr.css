@@ -1,0 +1,71 @@
+.apple{
+ 
+    width: 1400px;
+    background-color: rgb(148, 25, 35);
+    padding: 40px 30px;
+    box-shadow: 0 20px 25px rgba(0, 0, 0, 0.534);
+    border-radius: 8px;
+    color: #d2d2d2;
+}
+.name{
+    text-align: left;
+    width: 30%;
+}
+.dwork{
+    text-align: left;
+  width: 30%;
+}
+.drate{
+    text-align: left;
+    width: 30%;
+}
+.deductamt{
+    text-align: left;
+    width: 30%;
+}
+
+.delete{
+    text-align: left;
+    width: 30%;
+}
+
+
+input{
+    width: 90%;
+    height: 30px;
+    border-radius: 5px;
+}
+form{
+    display:flex;
+    justify-content: space-between;
+}
+
+
+grapes{
+    display:flex;
+   
+    align-items: stretch;
+}
+.buu{
+    display:flex;
+ 
+    align-items: stretch;
+}
+
+
+#cart td, #cart th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #cart tr:nth-child(even){background-color: #f2f2f2;}
+  #cart tr:nth-child(odd){background-color: #bfddf1;}
+       
+  
+  #cart th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+  }
